@@ -1,0 +1,124 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #fff;
+    font-size:15px;
+}
+
+  ul, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+  .movie-thumb-wrapper img {
+    width: 100%;
+    
+}
+
+  .movie-thumb-wrapper {
+    width: 45vw;
+}
+
+  .movie-details-wrapper {
+    padding: 0px 30px;
+    width: calc(100vw - 45vw);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+  .movie-details-wrapper .heading-wrapper h1 {
+    color:#ffce00;
+    font-size: 2rem;
+}
+
+  .movie-details-wrapper .heading-wrapper ul {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 4px;
+    opacity: 0.5;
+}
+
+  .movie-details-wrapper .heading-wrapper ul li {
+    margin-right: 30px;
+    font-weight: 300;
+    text-transform: capitalize;
+    
+}
+
+  .movie-details-wrapper .detail-information {
+    margin-top: 30px;
+}
+
+  .movie-details-wrapper .detail-information
+ul.other-details {
+    margin-top: 30px;
+}
+
+  .movie-details-wrapper .detail-information li {
+    display: flex;
+    margin-top: 8px;
+    border-bottom: 1px solid #ffffff2b;
+    padding-bottom: 8px;
+}
+
+  .movie-details-wrapper .detail-information
+li p:first-of-type {
+    width: 140px;
+    opacity: 0.5;
+}
+
+  .movie-details-wrapper .detail-information p {
+    line-height: 1.8;
+}
+
+img{
+    max-width: 100%;
+  }
+  .movie-main-wrapper{
+    display: flex;justify-content: space-between;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .movie-details-wrapper .heading-wrapper h1{
+    font-size: 1.6rem;
+  }
+  .movie-details-wrapper .detail-information{
+    margin-top: 0px
+  }
+  .detail-information p{
+    font-size: 0.8rem;
+  }
+  .movie-main-wrapper .movie-thumb-wrapper img {
+    width: auto;
+    
+  }
+
+  .movie-main-wrapper .movie-details-wrapper {
+      width: 100%;
+      margin-top: 40px;
+      padding: 0;
+  }
+  /* main.main-wrapper section, .movie-main-wrapper {
+      padding:  5px 20px;
+      flex-direction: column;
+  } */
+  .movie-thumb-wrapper  {
+   text-align: center;
+    width:100%;
+}
+
+}
+@media only screen and (max-width: 768px) {
+  movie-main-wrapper{
+    display: block;
+  }
+}
+    

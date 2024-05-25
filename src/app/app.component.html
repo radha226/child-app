@@ -1,0 +1,56 @@
+<div class="movie-main-wrapper">
+  <div class="movie-thumb-wrapper" > 
+    <img [src]="poster" class="card-img" alt="{{ title }}" onerror="this.onerror=null;this.src='../assets/images/default-image.png';">
+  </div>
+   <div class="movie-details-wrapper">
+      <div class="heading-wrapper">
+        <h1>
+          {{ title }}
+        </h1>
+        <ul>
+          <li>
+            {{year}}
+          </li>
+          <li>
+           {{runtime}}
+          </li>
+          <li>
+            {{type}}
+          </li>
+        </ul>
+      </div>
+      <div class="detail-information">
+        <p class="short desc">
+         {{plot}}
+        </p>
+        <ul class="other-details">
+          <li>
+            <p>
+              Genre:
+            </p>
+            <p>
+              {{ genre }}
+            </p>
+          </li>
+          <li>
+            <p>
+              {{ director }}
+            </p>
+            <p>
+              {{ director }}
+            </p>
+          </li>
+          <li>
+            <p>
+              Actors: 
+            </p>
+            <p>
+              {{ actors }}
+            </p>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
